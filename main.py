@@ -41,7 +41,7 @@ while True:
             all_images = glob.glob("images/*.png")
             index = int(len(all_images) / 2)
             image_with_object = all_images[index]
-            send_email()
+            send_email(image_with_object)
 
     status_list.append(status)
     status_list = status_list[-2:]
