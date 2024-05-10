@@ -2,6 +2,8 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
+###just the you need to put email below for working application!!!
+
 PASSWORD = ""
 SENDER = ""
 RECEİVER = ""
